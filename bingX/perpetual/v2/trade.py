@@ -43,7 +43,7 @@ def trade_order(self,
     return res['data']
 
 
-def trade_order(self,
+def trade_order_test(self,
                 symbol: str,
                 type: str,
                 side: str,
