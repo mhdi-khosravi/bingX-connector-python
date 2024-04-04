@@ -45,6 +45,7 @@ class Perpetual(API):
     # ========== TRADE INTERFACE ==========
     from bingX.perpetual.v2.trade import (
         trade_order,
+        trade_order_test,
         bulk_order,
         close_all_positions,
         cancel_order,
