@@ -44,18 +44,18 @@ def trade_order(self,
 
 
 def trade_order_test(self,
-                symbol: str,
-                type: str,
-                side: str,
-                positionSide: str = None,
-                price: float = None,
-                quantity: float = None,
-                stopPrice: float = None,
-                recvWindow: int = None,
-                reduceOnly: str = None,
-                clientOrderID: str = None,
-                closePosition: str = None,
-                ) -> dict:
+                     symbol: str,
+                     type: str,
+                     side: str,
+                     positionSide: str = None,
+                     price: float = None,
+                     quantity: float = None,
+                     stopPrice: float = None,
+                     recvWindow: int = None,
+                     reduceOnly: str = None,
+                     clientOrderID: str = None,
+                     closePosition: str = None,
+                     ) -> dict:
     ''' Place a New Order
     POST /openApi/swap/v2/trade/order
 
